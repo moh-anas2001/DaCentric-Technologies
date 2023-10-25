@@ -136,10 +136,14 @@ a:hover {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
-  background: #199EB8;
-  height: 70px;
-}
+  #header {
+    background:#190e3e;
+    height: 80px;
+    /* margin:10px 5px 10px 5px;  */
+
+    /* border-radius:50px; */
+  }
+
 
 #header #logo h1 {
   font-size: 32px;
@@ -159,7 +163,7 @@ a:hover {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 80px;
 }
 
 .scrolled-offset {
@@ -422,7 +426,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/index.gif);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -460,10 +464,17 @@ a:hover {
 }
 
 .tagline {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 26px;
+  font-family: montserrat,sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
   margin: 45px 0 75px 0;
+ /* margin-left: 25%;
+ margin-right: 25%; */
+ /* display: inline-block; */
   color: #fff;
+  letter-spacing: 5px;
+  /* padding: 15px 40px; */
+  /* background: #000000; */
 }
 
 /*--------------------------------------------------------------
@@ -667,9 +678,9 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.portfolio-grid {
-  margin-top: 65px;
-}
+/* .portfolio-grid {
+   margin-top: 65px; 
+} */
 
 .portfolio-grid .row {
   margin: 0;
@@ -681,6 +692,7 @@ a:hover {
 
 .portfolio-grid .row>div .card img {
   width: 100%;
+  /* min-height: 150%; */
 }
 
 .portfolio-grid .row>div .card .portfolio-over {
@@ -958,8 +970,11 @@ a:hover {
 }
 
 .site-footer .bottom {
-  background-color: #000;
+  background-image: url(../img/index.gif);
   padding: 20px 0;
+  background-size: cover;
+ /* Ensure the image covers the entire background */
+  /* background-position: center ;  */
 }
 
 .site-footer .bottom .list-inline,
