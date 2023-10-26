@@ -89,17 +89,17 @@ a:hover {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  background-color:limegreen;
+  font-family:montserrat, sans-serif;
+  font-weight: 600;
   color: #fff;
   padding: 15px 45px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  background-color: #E04F00;
-  color: #fff;
+  border: 3px solid #1eff00;
+  background-color: transparent;
 }
 
 .btn:focus {
@@ -178,7 +178,7 @@ a:hover {
 }
 
 .header-social-links a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #6c757d;
   padding-left: 8px;
   display: inline-block;
   line-height: 0px;
@@ -187,11 +187,11 @@ a:hover {
 
 .header-social-links a i {
   line-height: 0;
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .header-social-links a:hover {
-  color: #fff;
+  color: #15d1ea;
 }
 
 @media (max-width: 768px) {
