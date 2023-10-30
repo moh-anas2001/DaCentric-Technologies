@@ -2121,9 +2121,6 @@ a:hover {
   line-height: 1.2;
 }
 
-@media (max-width: 767px) {
-  .white {}
-}
 
 .icon-24x24 {
   color: #ffffff;
@@ -2148,9 +2145,7 @@ a:hover {
   }
 }
 
-@media (max-width: 479px) {
-  .black {}
-}
+
 
 .box-shadow {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -2201,9 +2196,7 @@ a:hover {
   color: #000000;
 }
 
-@media (max-width: 767px) {
-  .text-bold-16 {}
-}
+
 
 
 .left-bg-down {
@@ -2360,7 +2353,7 @@ a:hover {
   color: #32c40d;
 }
 
-.button-round:hover {}
+
 
 .button-round {
   background-color: transparent;
@@ -2371,7 +2364,7 @@ a:hover {
 
 
 .effact-button-white {
-  transform: ;
+  
   transition-duration: 0.2s;
   border-top-width: 5px;
   border-right-width: 5px;
@@ -2387,7 +2380,7 @@ a:hover {
 }
 
 @media (max-width: 1120px) {
-  .effact-button-white {}
+  
 
   .effact-button-white {
     border-top-color: #f6fbff;
@@ -2430,13 +2423,7 @@ a:hover {
   }
 }
 
-@media (max-width: 767px) {
-  .div-seo-tabale {}
-}
 
-@media (max-width: 479px) {
-  .div-seo-tabale {}
-}
 
 .div-20p {
   width: 20%;
@@ -2459,19 +2446,9 @@ a:hover {
 }
 
 
-.div-center {}
 
-@media (max-width: 991px) {
-  .div-center {}
 
-  .div-center:not(.ct-section):not(.oxy-easy-posts),
-  .div-center.oxy-easy-posts .oxy-posts,
-  .div-center.ct-section .ct-section-inner-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
+
 
 .bold-64 {
   font-size: 64px
@@ -2494,33 +2471,12 @@ a:hover {
 
 
 
-.oxel_iconlist__row_a:not(.ct-section):not(.oxy-easy-posts),
-.oxel_iconlist__row_a.oxy-easy-posts .oxy-posts,
-.oxel_iconlist__row_a.ct-section .ct-section-inner-wrap {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-
-
-
-.milestone:not(.ct-section):not(.oxy-easy-posts),
-.milestone.oxy-easy-posts .oxy-posts,
-.milestone.ct-section .ct-section-inner-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 
 
 
 
-.process:not(.ct-section):not(.oxy-easy-posts),
-.process.oxy-easy-posts .oxy-posts,
-.process.ct-section .ct-section-inner-wrap {
-  gap: 30px;
-}
+
+
 
 
