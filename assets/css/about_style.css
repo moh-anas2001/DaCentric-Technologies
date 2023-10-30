@@ -1604,39 +1604,7 @@ a:hover {
   left: 0px
 }
 
-.oxy_shape_divider {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  pointer-events: none
-}
 
-.oxy_shape_divider>svg {
-  min-width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  transform-origin: bottom center
-}
-
-.oxy_shape_divider_top {
-  top: -1px;
-  bottom: initial
-}
-
-.oxy_shape_divider_flipped {
-  transform: scaleX(-1)
-}
-
-#-shape-divider-203-84 .oxy_shape_divider {
-  color: #f4f4f4
-}
-
-#-shape-divider-203-84 .oxy_shape_divider svg {
-  height: 108px
-}
 
 div.ct-section-inner-wrap,
 div.oxy-header-container {
@@ -1724,94 +1692,7 @@ div.oxy-header-container {
   align-items: flex-start;
 }
 
-.oxy-comments {
-  width: 100%;
-  text-align: left;
-}
 
-.oxy-comment-form {
-  width: 100%;
-}
-
-.oxy-login-form {
-  width: 100%;
-}
-
-.oxy-search-form {
-  width: 100%;
-}
-
-.oxy-tabs-contents {
-  display: flex;
-  width: 100%;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.oxy-tab {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.oxy-tab-content {
-  display: flex;
-  width: 100%;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.oxy-testimonial {
-  width: 100%;
-}
-
-.oxy-icon-box {
-  width: 100%;
-}
-
-.oxy-pricing-box {
-  width: 100%;
-}
-
-.oxy-posts-grid {
-  width: 100%;
-}
-
-.oxy-gallery {
-  width: 100%;
-}
-
-.ct-slider {
-  width: 100%;
-}
-
-.oxy-tabs {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: stretch;
-}
-
-.ct-modal {
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.ct-span {
-  display: inline-block;
-  text-decoration: inherit;
-}
-
-.ct-widget {
-  width: 100%;
-}
-
-.oxy-dynamic-list {
-  width: 100%;
-}
 
 @media screen and (-ms-high-contrast: active),
 (-ms-high-contrast: none) {
@@ -1834,168 +1715,9 @@ div.oxy-header-container {
   }
 }
 
-.oxy-testimonial {
-  flex-direction: row;
-  align-items: center;
-}
 
-.oxy-testimonial .oxy-testimonial-photo-wrap {
-  order: 1;
-}
 
-.oxy-testimonial .oxy-testimonial-photo {
-  width: 125px;
-  height: 125px;
-  margin-right: 20px;
-}
 
-.oxy-testimonial .oxy-testimonial-photo-wrap,
-.oxy-testimonial .oxy-testimonial-author-wrap,
-.oxy-testimonial .oxy-testimonial-content-wrap {
-  align-items: flex-start;
-  text-align: left;
-}
-
-.oxy-testimonial .oxy-testimonial-text {
-  margin-bottom: 8px;
-  font-size: 21px;
-  line-height: 1.4;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.oxy-testimonial .oxy-testimonial-author {
-  font-size: 18px;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.oxy-testimonial .oxy-testimonial-author-info {
-  font-size: 12px;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.oxy-icon-box {
-  text-align: left;
-  flex-direction: column;
-}
-
-.oxy-icon-box .oxy-icon-box-icon {
-  margin-bottom: 12px;
-  align-self: flex-start;
-}
-
-.oxy-icon-box .oxy-icon-box-heading {
-  font-size: 21px;
-  margin-bottom: 12px;
-}
-
-.oxy-icon-box .oxy-icon-box-text {
-  font-size: 16px;
-  margin-bottom: 12px;
-  align-self: flex-start;
-}
-
-.oxy-icon-box .oxy-icon-box-link {
-  margin-top: 20px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-section {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {
-  justify-content: center;
-}
-
-.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-graphic {
-  justify-content: center;
-}
-
-.oxy-pricing-box .oxy-pricing-box-title-title {
-  font-size: 48px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-title-subtitle {
-  font-size: 24px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {
-  flex-direction: row;
-}
-
-.oxy-pricing-box .oxy-pricing-box-currency {
-  font-size: 28px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-amount-main {
-  font-size: 80px;
-  line-height: 0.7;
-}
-
-.oxy-pricing-box .oxy-pricing-box-amount-decimal {
-  font-size: 13px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-term {
-  font-size: 16px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-sale-price {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
-}
-
-.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-content {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-cta {
-  justify-content: center;
-}
-
-.oxy-progress-bar .oxy-progress-bar-background {
-  background-color: #000000;
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, .12) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .12) 50%, rgba(255, 255, 255, .12) 75%, transparent 75%, transparent);
-  animation: none 0s paused;
-}
-
-.oxy-progress-bar .oxy-progress-bar-progress-wrap {
-  width: 85%;
-}
-
-.oxy-progress-bar .oxy-progress-bar-progress {
-  background-color: #66aaff;
-  padding: 40px;
-  animation: none 0s paused, none 0s paused;
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, .12) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .12) 50%, rgba(255, 255, 255, .12) 75%, transparent 75%, transparent);
-}
-
-.oxy-progress-bar .oxy-progress-bar-overlay-text {
-  font-size: 30px;
-  font-weight: 900;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.oxy-progress-bar .oxy-progress-bar-overlay-percent {
-  font-size: 12px;
-}
-
-.ct-slider .unslider-nav ol li {
-  border-color: #ffffff;
-}
-
-.ct-slider .unslider-nav ol li.unslider-active {
-  background-color: #ffffff;
-}
-
-.ct-slider .ct-slide {
-  padding: 0px;
-}
 
 .oxy-superbox .oxy-superbox-secondary,
 .oxy-superbox .oxy-superbox-primary {
@@ -2752,7 +2474,7 @@ a:hover {
 }
 
 .bold-64 {
-  font-size: 64px;
+  font-size: 64px
 }
 
 @media (max-width: 767px) {
