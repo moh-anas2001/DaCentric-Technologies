@@ -525,6 +525,8 @@
 
 
 
+
+
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -588,6 +590,34 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        // Wait for the document to be ready
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get a reference to the popup modal
+            const popupModal = document.getElementById("popupModal");
+    
+            // Add a click event listener to all elements with the "popup-trigger" class
+            const popupTriggers = document.querySelectorAll(".popup-trigger");
+            popupTriggers.forEach(function (trigger) {
+                trigger.addEventListener("click", function () {
+                    // Get the title and content associated with the clicked element (customize as needed)
+                    const title = "Popup Title"; // Change this for each trigger
+                    const content = document.querySelector('#tab-1').cloneNode(true); // Clone the content of the corresponding tab
+    
+                    // Update the modal title and content
+                    popupModal.querySelector(".modal-title").textContent = title;
+                    const modalBody = popupModal.querySelector(".modal-body");
+                    modalBody.innerHTML = ''; // Clear previous content
+                    modalBody.appendChild(content);
+    
+                    // Show the modal
+                    new bootstrap.Modal(popupModal).show();
+                });
+            });
+        });
+    </script>
+    
 
 </body>
 

@@ -570,6 +570,9 @@ a:hover {
   background-repeat: no-repeat;
   text-align: left;
   background-position: 0% 10%;
+  /* background:linear-gradient(to right, #ff000036, #00fff145 ,#ec81378f, #9dff0070); */
+  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
+
 }
 
 #section-231-84>.ct-section-inner-wrap {
