@@ -85,53 +85,6 @@ a:hover {
   opacity: 1;
 }
 
-/* ==================================================
-  Elements
-  ================================================== */
-/* .btn {
-  background-color:limegreen;
-  font-family:montserrat, sans-serif;
-  font-weight: 600;
-  color: #fff;
-  padding: 15px 45px;
-  border-radius: 50px;
-}
-
-.btn:hover {
-  border: 3px solid #1eff00;
-  background-color: transparent;
-}
-
-.btn:focus {
-  color: #fff;
-}
-
-.btn-ghost {
-  border: 3px solid #fff;
-  background-color: transparent;
-}
-
-.btn-ghost:hover {
-  background-color: #fff;
-  color: #199EB8;
-}
-
-section {
-  padding: 85px 0;
-}
-
-.card {
-  position: relative;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-a:hover {
-  text-decoration: none !important;
-} */
 
 /*--------------------------------------------------------------
 # Header
@@ -10192,7 +10145,7 @@ aside .instafeed-grid.gutter-double-extra-large {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.nav-tabs {
+/* .nav-tabs {
   border: none;
 }
 .nav-tabs > li.nav-item {
@@ -10221,7 +10174,7 @@ aside .instafeed-grid.gutter-double-extra-large {
 .nav-tabs.nav-tabs-light > li.nav-item > a.nav-link:hover {
   border-bottom: 1px solid #fff;
   color: #fff;
-}
+} */
 .tab-style-07 .nav-tabs > li.nav-item {
   margin: 0 0 -1px 0;
 }
@@ -16626,3 +16579,125 @@ display:none;
     color: #ff5501;
 }
 /* Overview Teams */
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features {
+  overflow: hidden;
+}
+
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #556270;
+  border-radius: 0;
+  border-right: 2px solid white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.features .nav-link:hover {
+  color: #d9232d;
+}
+
+.features .nav-link.active {
+  color: #d9232d;
+  border-color: #d9232d;
+}
+
+.features .tab-pane.active {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.features .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #556270;
+}
+
+.features .details p {
+  color: #777777;
+}
+
+.features .details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .features .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+
+  .features .nav-link.active {
+    color: #fff;
+    background: #d9232d;
+  }
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg,
+.services .icon-box {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #556270;
+}
