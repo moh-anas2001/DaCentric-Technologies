@@ -103,7 +103,7 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #190e3e;
+  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
   height: 80px;
   /* margin:10px 5px 10px 5px;  */
 
@@ -128,8 +128,8 @@ a:hover {
 
 #header #logo img {
   padding: 0;
-  margin: 0;
-  max-height: 80px;
+  margin-top: 10px;
+  max-height: 50px;
 }
 
 .scrolled-offset {
