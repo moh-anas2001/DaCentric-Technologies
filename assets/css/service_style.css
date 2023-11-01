@@ -1468,7 +1468,7 @@ a.text-very-light-white-transparent-hover:hover {
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #141414 150%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0, #141414 150%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0, #141414 150%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #141414 150%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) , #199eb8 150%);
 }
 .bg-transparent-gradient-fast-blue-purple {
   background-image: linear-gradient(
@@ -16610,12 +16610,12 @@ display:none;
 }
 
 .features .nav-link:hover {
-  color: #d9232d;
+  color:#007bff;
 }
 
 .features .nav-link.active {
-  color: #d9232d;
-  border-color: #d9232d;
+  color: #007bff;
+  border-color: #007bff;
 }
 
 .features .tab-pane.active {
