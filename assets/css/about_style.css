@@ -51,6 +51,7 @@ h4 {
   font-size: 18px;
 }
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14019,4 +14020,12 @@ button:focus {
     .blue h2 {
         font-size: 28px
     }
+}
+
+
+.site-footer .copyright-text a {
+  color: #199EB8;
+}
+.site-footer .copyright-text a:hover{
+  color: #23c3e1;
 }
