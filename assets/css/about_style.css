@@ -58,11 +58,11 @@ h4 {
 a {
   transition: 0.5s;
   text-decoration: none;
-  color: #199EB8;
+  color: rgb(68, 0, 0);
 }
 
 a:hover {
-  color: #23c2e1;
+  color: #c423e1;
 }
 
 /*--------------------------------------------------------------
@@ -75,7 +75,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #199EB8;
+  background: rgb(28, 12, 44);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -89,22 +89,77 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #1ebddc;
+  background: #000000;
   color: #fff;
 }
+
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 20px 0;
+  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
+  min-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);border-bottom: 2px solid #000000;
+}
 
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs h2 {
+    margin: 0 0 10px 0;
+  }
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
 
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
+  background: rgb(28, 12, 44);
   height: 80px;
   /* margin:10px 5px 10px 5px;  */
 
@@ -158,7 +213,7 @@ a:hover {
 }
 
 .header-social-links a:hover {
-  color: #15d1ea;
+  color: #ea15ae;
 }
 
 @media (max-width: 768px) {
