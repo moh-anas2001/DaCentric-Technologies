@@ -830,40 +830,50 @@ a:hover {
   color: #999;
 }
 
-/* ==================================================
-  Contact Section
-  ================================================== */
-#contact {
-  background: #f7f7f7;
-  padding: 80px 0;
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-#contact h2 {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+.contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #5c9f24;
 }
 
-#contact .info i {
-  font-size: 32px;
-  color: #199EB8;
-  float: left;
-  line-height: 0;
+.contact .contact-info address,
+.contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
 }
 
-#contact .info p {
-  padding: 0 0 10px 50px;
-  line-height: 24px;
+.contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
 }
 
-#contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
+.contact .contact-info a {
+  color: #000;
 }
 
-#contact .php-email-form .error-message {
+.contact .contact-info a:hover {
+  color: #5c9f24;
+}
+
+.contact .contact-address,
+.contact .contact-phone,
+.contact .contact-email {
+  margin-bottom: 20px;
+}
+
+.contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -872,11 +882,11 @@ a:hover {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-#contact .php-email-form .sent-message {
+.contact .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -885,14 +895,14 @@ a:hover {
   font-weight: 600;
 }
 
-#contact .php-email-form .loading {
+.contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-#contact .php-email-form .loading:before {
+.contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -904,27 +914,32 @@ a:hover {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input,
-#contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
+  font-size: 14px;
+  height: auto;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
 
-#contact .php-email-form input::focus,
-#contact .php-email-form textarea::focus {
-  background-color: #199EB8;
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #5c9f24;
 }
 
-#contact .php-email-form button[type=submit] {
-  background: #199EB8;
+.contact .php-email-form button[type=submit] {
+  background: #5c9f24;
   border: 0;
-  padding: 10px 24px;
+  padding: 10px 30px 12px 30px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 4px;
 }
 
-#contact .php-email-form button[type=submit]:hover {
-  background: #23c2e1;
+.contact .php-email-form button[type=submit]:hover {
+  background: #6ab82a;
 }
 
 @keyframes animate-loading {
@@ -934,6 +949,19 @@ a:hover {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .contact .contact-address,
+  .contact .contact-phone,
+  .contact .contact-email {
+    padding: 20px 0;
   }
 }
 
