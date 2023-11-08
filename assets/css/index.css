@@ -89,17 +89,17 @@ a:hover {
   Elements
   ================================================== */
 .btn {
-  background-color:limegreen;
-  font-family:montserrat, sans-serif;
-  font-weight: 600;
+  background-color: #199EB8;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 800;
   color: #fff;
   padding: 15px 45px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  border: 3px solid #1eff00;
-  background-color: transparent;
+  background-color: #E04F00;
+  color: #fff;
 }
 
 .btn:focus {
@@ -136,14 +136,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-  #header {
-    background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
-    height: 80px;
-    /* margin:10px 5px 10px 5px;  */
-
-    /* border-radius:50px; */
-  }
-
+#header {
+  background: #199EB8;
+  height: 70px;
+}
 
 #header #logo h1 {
   font-size: 32px;
@@ -157,13 +153,13 @@ a:hover {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 #header #logo img {
   padding: 0;
-  margin-top: 10px;
-  max-height: 50px;
+  margin: 0;
+  max-height: 40px;
 }
 
 .scrolled-offset {
@@ -178,7 +174,7 @@ a:hover {
 }
 
 .header-social-links a {
-  color: #6c757d;
+  color: rgba(255, 255, 255, 0.8);
   padding-left: 8px;
   display: inline-block;
   line-height: 0px;
@@ -187,11 +183,11 @@ a:hover {
 
 .header-social-links a i {
   line-height: 0;
-  /* font-size: 24px; */
+  font-size: 24px;
 }
 
 .header-social-links a:hover {
-  color: #15d1ea;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -231,7 +227,7 @@ a:hover {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -426,7 +422,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/index.gif);
+  background-image: url(../img/cover.jpg);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -438,7 +434,7 @@ a:hover {
   content: "";
   z-index: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.50);
+  background: rgba(0, 0, 0, 0.65);
   width: 100%;
   height: 100%;
   left: 0;
@@ -464,24 +460,11 @@ a:hover {
 }
 
 .tagline {
-  font-family: montserrat,sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 26px;
   margin: 45px 0 75px 0;
- /* margin-left: 25%;
- margin-right: 25%; */
- /* display: inline-block; */
   color: #fff;
-  letter-spacing: 5px;
-  /* padding: 15px 40px; */
-  /* background: #000000; */
 }
-
-/* @media (max-width: 445px) {
-  .tagline {
-    font-size: 10px;
-  }
-} */
 
 /*--------------------------------------------------------------
 # Stats
@@ -684,9 +667,9 @@ a:hover {
   margin-bottom: 25px;
 }
 
-/* .portfolio-grid {
-   margin-top: 65px; 
-} */
+.portfolio-grid {
+  margin-top: 65px;
+}
 
 .portfolio-grid .row {
   margin: 0;
@@ -698,7 +681,6 @@ a:hover {
 
 .portfolio-grid .row>div .card img {
   width: 100%;
-  /* min-height: 150%; */
 }
 
 .portfolio-grid .row>div .card .portfolio-over {
@@ -976,11 +958,8 @@ a:hover {
 }
 
 .site-footer .bottom {
-  background-image: url(../img/index.gif);
+  background-color: #000;
   padding: 20px 0;
-  background-size: cover;
- /* Ensure the image covers the entire background */
-  /* background-position: center ;  */
 }
 
 .site-footer .bottom .list-inline,
@@ -1046,7 +1025,7 @@ a:hover {
 
   h2,
   .tagline {
-    font-size: 15px;
+    font-size: 24px;
   }
 
   h2 {
@@ -1110,9 +1089,3 @@ a:hover {
     padding-right: 30px;
   }
 }
-
-
-
-
-
-
