@@ -444,6 +444,8 @@ a:hover {
 
 
 
+
+le
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2552,142 +2554,6 @@ input[type=submit].btn-block,input[type=button].btn-block {
   width: 100%
 }
 
-.collapse:not(.show) {
-  display: none
-}
-
-.dropdown {
-  position: relative
-}
-
-.dropdown-toggle::after {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: .255em;
-  vertical-align: .255em;
-  content: "";
-  border-top: .3em solid;
-  border-right: .3em solid transparent;
-  border-bottom: 0;
-  border-left: .3em solid transparent
-}
-
-.dropdown-toggle:empty::after {
-  margin-left: 0
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: .5rem 0;
-  margin: .125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
-  border-radius: .25rem
-}
-
-.nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none
-}
-
-.navbar {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: .5rem 1rem
-}
-
-.navbar>.container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between
-}
-
-.navbar-brand {
-  display: inline-block;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap
-}
-
-.navbar-brand:hover,.navbar-brand:focus {
-  text-decoration: none
-}
-
-.navbar-nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none
-}
-
-.navbar-nav .dropdown-menu {
-  position: static;
-  float: none
-}
-
-.navbar-collapse {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-align: center;
-  align-items: center
-}
-
-@-webkit-keyframes progress-bar-stripes {
-  from {
-      background-position: 1rem 0
-  }
-
-  to {
-      background-position: 0 0
-  }
-}
-
-@keyframes progress-bar-stripes {
-  from {
-      background-position: 1rem 0
-  }
-
-  to {
-      background-position: 0 0
-  }
-}
 
 .progress {
   display: -ms-flexbox;
@@ -2822,25 +2688,9 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
       min-width: 992px!important
   }
 
-  .navbar {
-      display: none
-  }
+
 }
 
-/*!Theme Name: OpenXcell
-Theme URI: https://bootstrap-wp.com
-Author: TwoPoints
-Author URI:
-Description: "OpenXcell" is a simple & easy to use WordPress theme. It is based on world's most popular framework for responsive websites, Twitter Bootstrap 4. "OpenXcell" is a perfect combination of Bootstrap 4 and WordPress. It is fast and light-weight with around 20 kb style.css. It is also search engine friendly. It has a built-in slider for featured posts on blog's home page. It supports all major & popular WordPress plugins like Jetpack, Contact Form 7, Elementor, Beaver Builder, SiteOrigin Page Builder etc. Check demo on https://bootstrap-wp.com
-Version: 1.0.9
-License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl.html
-Text Domain: OpenXcell
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, left-sidebar, right-sidebar, custom-colors, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, blog
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-OpenXcell is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.*/
 body {
   background-color: #f8f9fa
 }
@@ -2933,13 +2783,6 @@ input[type=text]:-webkit-input-placeholder,input[type=text]:-moz-placeholder,inp
   opacity: 1
 }
 
-.navbar {
-  padding: 1rem
-}
-
-.navbar-brand {
-  font-size: 1.5rem
-}
 
 html {
   scroll-behavior: smooth
@@ -3242,9 +3085,6 @@ a.btn-main:hover img.white-img {
   margin-bottom: 30px
 }
 
-.navbar .dropdown {
-  z-index: 99
-}
 
 .slider-heading-man h5 {
   width: 100%;
@@ -3376,9 +3216,6 @@ main.main {
       padding: 80px 0
   }
 
-  .navbar-brand {
-      max-width: 160px
-  }
 
   .btn-site {
       padding: 28px 80px 28px 30px;
@@ -3459,9 +3296,6 @@ main.main {
 
 @media(max-width: 992px) {
 
-  .navbar>.container {
-      justify-content: start!important
-  }
 
   .people-slider-img {
       height: 320px
@@ -3471,15 +3305,7 @@ main.main {
       padding: 60px 0
   }
 
-  .navbar-brand {
-      max-width: 110px
-  }
 
-  .navbar-nav .dropdown-menu {
-      border: none;
-      padding-top: 0;
-      padding-bottom: 0
-  }
 }
 
 @media(max-width: 991px) {
@@ -13037,68 +12863,6 @@ input[type=submit].btn-block,input[type=button].btn-block {
     list-style: none
 }
 
-.navbar {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 1rem
-}
-
-.navbar>.container {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap
-}
-
-.navbar-brand:hover,.navbar-brand:focus {
-    text-decoration: none
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none
-}
-
-.navbar-nav .dropdown-menu {
-    position: static;
-    float: none
-}
-
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-align: center;
-    align-items: center
-}
-
 @-webkit-keyframes progress-bar-stripes {
     from {
         background-position: 1rem 0
@@ -13252,9 +13016,6 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
         min-width: 992px!important
     }
 
-    .navbar {
-        display: none
-    }
 }
 
 /*!Theme Name: OpenXcell
@@ -13363,13 +13124,6 @@ input[type=text]:-webkit-input-placeholder,input[type=text]:-moz-placeholder,inp
     opacity: 1
 }
 
-.navbar {
-    padding: 1rem
-}
-
-.navbar-brand {
-    font-size: 1.5rem
-}
 
 html {
     scroll-behavior: smooth
@@ -13672,9 +13426,6 @@ a.btn-main:hover img.white-img {
     margin-bottom: 30px
 }
 
-.navbar .dropdown {
-    z-index: 99
-}
 
 .slider-heading-man h5 {
     width: 100%;
@@ -13889,26 +13640,13 @@ main.main {
 
 @media(max-width: 992px) {
 
-    .navbar>.container {
-        justify-content: start!important
-    }
-
     .people-slider-img {
         height: 320px
     }
 
     section {
         padding: 60px 0
-    }
 
-    .navbar-brand {
-        max-width: 110px
-    }
-
-    .navbar-nav .dropdown-menu {
-        border: none;
-        padding-top: 0;
-        padding-bottom: 0
     }
 }
 
