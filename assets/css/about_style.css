@@ -213,7 +213,7 @@ a:hover {
 }
 
 .header-social-links a:hover {
-  color: #ea15ae;
+  color: #15d1ea;
 }
 
 @media (max-width: 768px) {
@@ -629,7 +629,7 @@ le
   text-align: left;
   background-position: 0% 10%;
   /* background:linear-gradient(to right, #ff000036, #00fff145 ,#ec81378f, #9dff0070); */
-  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
+  /* background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d); */
 
 }
 
