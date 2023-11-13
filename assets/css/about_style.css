@@ -482,8 +482,7 @@ le
   background-image: url(../img/index.gif);
   padding: 20px 0;
   background-size: cover;
-  /* Ensure the image covers the entire background */
-  /* background-position: center ;  */
+  
 }
 
 .site-footer .bottom .list-inline,
@@ -512,7 +511,7 @@ le
 
 .site-footer .credits a {
   color: #199EB8;
-} */
+}  */
 
 /* ==================================================
   Responsive Styling
@@ -593,7 +592,7 @@ le
     padding: 0;
   }
 
-  .site-footer .social-nav {
+  /* .site-footer .social-nav {
     margin-bottom: 35px;
   }
 
@@ -604,7 +603,7 @@ le
 
   .site-footer .list-inline li {
     display: inline-block;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
@@ -1647,13 +1646,13 @@ a:hover {
   align-items: center;
 }
 
-.atomic-pricing-5-footer:not(.ct-section):not(.oxy-easy-posts),
+/* .atomic-pricing-5-footer:not(.ct-section):not(.oxy-easy-posts),
 .atomic-pricing-5-footer.oxy-easy-posts .oxy-posts,
 .atomic-pricing-5-footer.ct-section .ct-section-inner-wrap {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-}
+} */
 
 .bold-24 {
   font-size: 24px;
@@ -2131,9 +2130,9 @@ html {
   width: device-width
 }
 
-footer,main,nav,section {
+/* footer,main,nav,section {
   display: block
-}
+} */
 
 body {
   margin: 0;
@@ -12385,9 +12384,9 @@ html {
     width: device-width
 }
 
-footer,main,nav,section {
+/* footer,main,nav,section {
     display: block
-}
+} */
 
 body {
     margin: 0;
