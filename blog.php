@@ -33,22 +33,23 @@ $result = $connect->query($sql);
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800' rel='stylesheet'>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800' rel='stylesheet'>
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Bell
@@ -189,26 +190,32 @@ $result = $connect->query($sql);
                 <div class="col-lg-4">
 
 
-                    <!-- Recent Post Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                   
+                  
+                    <!-- Recent Post End -->
+
+                             <!-- Recent Post Start -->
+                             <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Recent Post</h3>
                         </div>
+                        <?php
+                  // Query to fetch the most recent 6 blog posts
+                  $sqlRecentPosts = "SELECT * FROM blog ORDER BY created_at DESC LIMIT 6";
+                  $resultRecentPosts = $connect->query($sqlRecentPosts);
+
+                  // Loop through the recent posts and display them
+                  while ($rowRecent = $resultRecentPosts->fetch_assoc()): ?>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/about1.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="blog-details.php?blog_id=<?php echo $row['blog_id']; ?>" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            <img class="img-fluid" src="<?php echo $rowRecent['cover_image']; ?>" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="blog-details.php?blog_id=<?php echo $rowRecent['blog_id']; ?>" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0"> <?php echo $rowRecent['title']; ?>
                             </a>
                         </div>
-                
+                        <?php endwhile; ?>
+                        
+                    
                     </div>
                     <!-- Recent Post End -->
-
-                    <!-- Image Start -->
-                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="assets/img/about1.png" alt="" class="img-fluid rounded">
-                    </div> -->
-                    <!-- Image End -->
-
 
 
 
@@ -227,50 +234,78 @@ $result = $connect->query($sql);
     $connect->close();
     ?>
 
+
     <!-- ======= Footer ======= -->
-    <footer class="site-footer">
-        <div class="bottom">
+    <footer id="footer">
+        <div class="footer-top">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-xs-12 text-lg-start text-center">
-                        <p class="copyright-text">
-                            &copy; Copyright <strong><a href="https://dacentrictechnologies/">DaCentric Technologies</a></strong>. All Rights Reserved
-                        </p>
-                        <div class="credits">
-                 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>DaCentric Technologies</h3>
+                            <p class="pb-3"><em>We are specialized in providing solution for IT & ELV Systems.</em></p>
+                            <p>
+                                Mas Tower,<br>
+                                Attakulangara, Thiruvananthapuram<br><br>
+                                <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
+                                <strong>Email:</strong> tse@dacentrictechnologies.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="https://x.com/dacentric?s=20" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.facebook.com/DaCentric" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://instagram.com/dacentrictechnologies?igshid=MTlnbmdhanJhMzhoYQ==" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                                <a href="https://www.linkedin.com/company/dacentric-technologies/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="index.html">Home</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#about">About Us</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#features">Features</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#team">Team</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#contact">Contact</a>
-                            </li>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
                         </ul>
                     </div>
 
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Artificial Intelligence</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">IT and Networking</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Data Center Monitoring System</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Intercom System</a></li>
+                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div>
+
                 </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>DaCentric Technologies</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
+                Designed by <a href="https://dacentrictechnologies.com">DaCentric Technologies</a>
             </div>
         </div>
     </footer><!-- End Footer -->
