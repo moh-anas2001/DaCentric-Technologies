@@ -127,16 +127,16 @@ if (isset($_GET['blog_id'])) {
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://x.com/dacentric?s=20" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.facebook.com/DaCentric" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/dacentrictechnologies?igshid=MTlnbmdhanJhMzhoYQ==" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/dacentric-technologies/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
   </header><!-- End Header -->
