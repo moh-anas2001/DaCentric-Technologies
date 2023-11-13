@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $blogTitle = $_POST["title"];
         $publishDate = $_POST["publish_date"];
         $content = $_POST["content"];
+        $topic = $_POST["topic"];
 
         // Upload and handle blog images
         $blogImageDir = "../assets/img/blog/"; // Directory to store blog images
@@ -348,16 +349,24 @@ $_SESSION['token'] = md5(uniqid(rand(), true));
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                    <label class="col-md-12 p-0">Additional Images (Optional)</label>
-                                    <div class="col-md-12 border-bottom p-0">
-                                        <input type="file" name="images[]" accept="image/*" multiple
-                                            class="form-control p-0 border-0">
+                                    <label class="col-sm-12">Select Topic</label>
+
+                                    <div class="col-sm-12 border-bottom">
+                                        <select name="topic" class="form-select shadow-none p-0 border-0 form-control-line">
+                                            <option>Web development</option>
+                                            <option>Mobile App Development</option>
+                                            <option>Digital Marketing</option>
+                                            <option>Graphic Design</option>
+                                            <option>Data Science</option>
+                                            <option>Artificial Intelligence</option>
+                                            <option>Cybersecurity</option>
+                                            <option>UI/UX Design</option>
+                                            <option>E-commerce</option>
+                                            <option>Cloud Computing</option>
+                                            <option>Blockchain</option>
+                                            <option>Others</option>
+                                        </select>
                                     </div>
-                                    <small class="text-muted">**On PC You can select multiple images by holding down the
-                                        Ctrl key (Cmd key on Mac) while selecting.**</small><br>
-                                    <small class="text-muted">**On Mobile Phone you can select multiple images by long
-                                        press on the image and select the images you want**</small>
-                                    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
                                 </div>
 
                                 <div class="form-group mb-4">

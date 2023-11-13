@@ -1,3 +1,45 @@
+<?php
+// Include the database configuration and establish a database connection
+include('admin/includes/database.php');
+
+// Check if the blog_id is provided in the URL
+if (isset($_GET['blog_id'])) {
+  $blogId = $_GET['blog_id'];
+
+  // Fetch the blog post details based on blog_id
+  $sql = "SELECT * FROM blog WHERE blog_id = ?";
+  $stmt = $connect->prepare($sql);
+  $stmt->bind_param("i", $blogId);
+  $stmt->execute();
+  $result = $stmt->get_result();
+
+  if ($result->num_rows === 1) {
+    // Fetch the blog post data
+    $row = $result->fetch_assoc();
+
+    // Fetch additional images associated with the blog post from blog_images table
+    $sqlImages = "SELECT image_path FROM blog_images WHERE blog_id = ?";
+    $stmtImages = $connect->prepare($sqlImages);
+    $stmtImages->bind_param("i", $blogId);
+    $stmtImages->execute();
+    $resultImages = $stmtImages->get_result();
+
+    $additionalImages = [];
+    while ($imageRow = $resultImages->fetch_assoc()) {
+      $additionalImages[] = $imageRow['image_path'];
+    }
+  } else {
+    // Handle the case where the blog post with the provided ID is not found
+    echo "Blog post not found.";
+    exit;
+  }
+} else {
+  // Handle the case where the blog_id is not provided in the URL
+  echo "Invalid blog post URL.";
+  exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -130,33 +172,9 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="assets/img/about3.png" alt="">
-                        <h1 class="mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor duo</h1>
-                        <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                            magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                            amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                            sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                            aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                            sit stet no diam kasd vero.</p>
-                        <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                            vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                            nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                            ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                            clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                            justo dolore sit invidunt.</p>
-                        <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
-                            invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
-                            lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
-                            rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
-                            sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
-                            lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
-                            sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
-                        <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                            vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                            nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                            ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                            clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                            justo dolore sit invidunt.</p>
+                        <img class="img-fluid w-100 rounded mb-5" src="<?php echo $row['cover_image']; ?>" alt="">
+                        <h1 class="mb-4"><?php echo $row['title']; ?></h1>
+                        <p><?php echo $row['content']; ?></p>
                     </div>
                     <!-- Blog Detail End -->
     
@@ -173,36 +191,21 @@
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Recent Post</h3>
                         </div>
+                        <?php
+                  // Query to fetch the most recent 6 blog posts
+                  $sqlRecentPosts = "SELECT * FROM blog ORDER BY created_at DESC LIMIT 6";
+                  $resultRecentPosts = $connect->query($sqlRecentPosts);
+
+                  // Loop through the recent posts and display them
+                  while ($rowRecent = $resultRecentPosts->fetch_assoc()): ?>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/about3.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            <img class="img-fluid" src="<?php echo $rowRecent['cover_image']; ?>" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="blog-details.php?blog_id=<?php echo $rowRecent['blog_id']; ?>" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0"> <?php echo $rowRecent['title']; ?>
                             </a>
                         </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/about1.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/gadgets.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/about3.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/about1.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
-                            </a>
-                        </div>
-                        <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="assets/img/gadgets.png" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
-                            </a>
-                        </div>
+                        <?php endwhile; ?>
+                        
+                    
                     </div>
                     <!-- Recent Post End -->
     
