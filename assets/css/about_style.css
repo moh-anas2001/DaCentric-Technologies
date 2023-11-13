@@ -103,7 +103,7 @@ a:hover {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d);
+  /* background: linear-gradient(to right, #ff000040, #00fff12b ,#ec81375e, #9dff004d); */
   min-height: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);border-bottom: 2px solid #000000;
 }
