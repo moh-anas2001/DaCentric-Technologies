@@ -296,7 +296,7 @@ $result = $connect->query($sql);
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="services.html">Artificial Intelligence</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services.html">IT and Networking</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Data Center Monitoring System</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Data Center infrastructure management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services.html">Intercom System</a></li>
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
             </ul>
