@@ -347,7 +347,7 @@ $result = $connect->query($sql);
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
-        Designed by <a href="https://dacentrictechnologies.com">DaCentric Technologies</a>
+        <!-- Designed by <a href="https://dacentrictechnologies.com">DaCentric Technologies</a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
