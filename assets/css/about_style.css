@@ -17,7 +17,7 @@
   font-display: swap;
 } */
 
-
+@charset "UTF-8";
 h1,
 h2,
 h3,
@@ -445,73 +445,6 @@ a:hover {
 
 
 
-le
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-/* .site-footer {
-  background-color: #111;
-  padding: 0;
-}
-
-.site-footer h2,
-.site-footer p {
-  color: #fff;
-}
-
-.site-footer p {
-  opacity: 0.75;
-  line-height: 2.0925;
-}
-
-.site-footer h2,
-.site-footer .btn {
-  margin-bottom: 25px;
-}
-
-.site-footer .social-nav a {
-  color: #fff;
-  opacity: 0.25;
-}
-
-.site-footer .social-nav a:hover {
-  opacity: 1;
-}
-
-.site-footer .bottom {
-  background-image: url(../img/index.gif);
-  padding: 20px 0;
-  background-size: cover;
-  
-}
-
-.site-footer .bottom .list-inline,
-.site-footer .bottom p {
-  margin: 0;
-}
-
-.site-footer .bottom .list-inline {
-  position: relative;
-  top: 5px;
-}
-
-.site-footer .bottom .list-inline a {
-  color: #fff;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  margin-right: 15px;
-}
-
-.site-footer .bottom .list-inline a:hover {
-  color: #199EB8;
-}
-
-.site-footer .credits {
-  color: #ddd;
-}
-
-.site-footer .credits a {
-  color: #199EB8;
-}  */
 
 /* ==================================================
   Responsive Styling
@@ -592,18 +525,7 @@ le
     padding: 0;
   }
 
-  /* .site-footer .social-nav {
-    margin-bottom: 35px;
-  }
 
-  .site-footer .list-inline {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-
-  .site-footer .list-inline li {
-    display: inline-block;
-  } */
 }
 
 @media (max-width: 767px) {
@@ -1646,13 +1568,6 @@ a:hover {
   align-items: center;
 }
 
-/* .atomic-pricing-5-footer:not(.ct-section):not(.oxy-easy-posts),
-.atomic-pricing-5-footer.oxy-easy-posts .oxy-posts,
-.atomic-pricing-5-footer.ct-section .ct-section-inner-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-} */
 
 .bold-24 {
   font-size: 24px;
@@ -2130,9 +2045,6 @@ html {
   width: device-width
 }
 
-/* footer,main,nav,section {
-  display: block
-} */
 
 body {
   margin: 0;
@@ -7613,7 +7525,7 @@ ul.elementor-nav-menu--dropdown a {
 }
 
 @media all {
-  @charset "UTF-8";
+
 
   ul {
     box-sizing: border-box
@@ -12384,9 +12296,6 @@ html {
     width: device-width
 }
 
-/* footer,main,nav,section {
-    display: block
-} */
 
 body {
     margin: 0;
@@ -13017,20 +12926,7 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
 
 }
 
-/*!Theme Name: OpenXcell
-Theme URI: https://bootstrap-wp.com
-Author: TwoPoints
-Author URI:
-Description: "OpenXcell" is a simple & easy to use WordPress theme. It is based on world's most popular framework for responsive websites, Twitter Bootstrap 4. "OpenXcell" is a perfect combination of Bootstrap 4 and WordPress. It is fast and light-weight with around 20 kb style.css. It is also search engine friendly. It has a built-in slider for featured posts on blog's home page. It supports all major & popular WordPress plugins like Jetpack, Contact Form 7, Elementor, Beaver Builder, SiteOrigin Page Builder etc. Check demo on https://bootstrap-wp.com
-Version: 1.0.9
-License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl.html
-Text Domain: OpenXcell
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, left-sidebar, right-sidebar, custom-colors, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, blog
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-OpenXcell is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.*/
+
 body {
     background-color: #f8f9fa
 }
@@ -13815,12 +13711,6 @@ button:focus {
 }
 
 
-/* .site-footer .copyright-text a {
-  color: #199EB8;
-}
-.site-footer .copyright-text a:hover{
-  color: #23c3e1;
-} */
 
 
 
@@ -13833,155 +13723,3 @@ button:focus {
 
 
 
-#footer {
-  background: #071527;
-  padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer .footer-top {
-  padding: 60px 0 30px 0;
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 15px;
-  background: #05101e;
-  border-top: 4px solid #ed502e;
-  text-align: center;
-  padding: 30px 20px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  background: #0a1e38;
-}
-
-#footer .footer-top .social-links a:hover {
-  color: #fff;
-  background: #ed502e;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #ef6445;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #ef6445;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #ed502e;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ef6445;
-}
-
-#footer .copyright {
-  border-top: 1px solid #0f2f57;
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-@media (max-width: 575px) {
-  #footer .footer-top .footer-info {
-    margin: -20px 0 30px 0;
-  }
-}
