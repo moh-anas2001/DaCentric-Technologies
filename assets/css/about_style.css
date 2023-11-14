@@ -12953,7 +12953,7 @@ body {
     -webkit-font-smoothing: auto;
     text-rendering: optimizeLegibility!important;
     -moz-osx-font-smoothing: grayscale;
-    font-smoothing: auto
+    
 }
 
 input[type=button],input[type=submit] {
@@ -13709,7 +13709,6 @@ button:focus {
         font-size: 28px
     }
 }
-
 
 
 
