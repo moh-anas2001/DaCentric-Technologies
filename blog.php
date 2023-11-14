@@ -244,8 +244,8 @@ $result = $connect->query($sql);
             <div class="footer-info">
               <h3>DaCentric Technologies</h3>
               <p class="pb-3"><em>We are specialized in providing solution for  IT & ELV Systems.</em></p>
-              <div class="row">
-                <!-- Second Row -->
+              <!-- <div class="row">
+                
                 <div class="col-md-6" style="padding-left: 50px;">
                     <address style="padding-top: 20px;">India</address>
                 </div>
@@ -256,7 +256,7 @@ $result = $connect->query($sql);
 
 
               <div class="row">
-                <!-- Second Row -->
+                
                 <div class="col-md-6" style="padding-left: 50px;">
                     <address style="padding-top: 20px;">UAE</address>
                 </div>
@@ -264,6 +264,29 @@ $result = $connect->query($sql);
                   <address>Office:702-20, Mai Tower, Al Nahda-1,
 
                     Al Qusais, Dubai UAE</address>
+                </div>
+              </div> -->
+
+
+              <div class="row">
+                <!-- India Address -->
+                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                  <address style="padding-top: 20px;">India</address>
+                </div>
+                <!-- Mas Tower Address -->
+                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                  <address>Mas Tower, <br>Attakulangara, Thiruvananthapuram</address>
+                </div>
+              </div>
+              
+              <div class="row">
+                <!-- UAE Address -->
+                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                  <address style="padding-top: 20px;">UAE</address>
+                </div>
+                <!-- Dubai Address -->
+                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                  <address>Office:702-20, Mai Tower, Al Nahda-1, Al Qusais, Dubai UAE</address>
                 </div>
               </div>
 
