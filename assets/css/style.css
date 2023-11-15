@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-  color: #23c2e1;
+  color:  #ed502e;
 }
 
 /*--------------------------------------------------------------
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #1ebddc;
+  background: #ed502e;
   color: #fff;
 }
 
@@ -191,7 +191,7 @@ a:hover {
 }
 
 .header-social-links a:hover {
-  color: #15d1ea;
+  color:  #ed502e;
 }
 
 @media (max-width: 768px) {
@@ -962,13 +962,15 @@ a:hover {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+  .contact.contact-address{
+    padding: 0 ;
+  }
 
-  .contact .contact-address,
-  .contact .contact-phone,
-  .contact .contact-email {
-    padding: 20px 0;
+   .contact .contact-phone, .contact .contact-email {
+    padding: 0px 0px 100px 0px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer

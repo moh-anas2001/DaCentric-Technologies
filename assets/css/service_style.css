@@ -145,7 +145,7 @@ a:hover {
 }
 
 .header-social-links a:hover {
-  color: #15d1ea;
+  color:  #ed502e;
 }
 
 @media (max-width: 768px) {
@@ -475,7 +475,7 @@ a:hover {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #23c2e1;
+  background:  #ed502e;
 }
 
 @keyframes animate-loading {
