@@ -344,7 +344,7 @@ $result = $connect->query($sql);
                             <div class="col-lg-12">
                                 <p style="text-align: center; font-size: 20px;">India</p>
                                 <!-- Content for the first row goes here -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d504709.6873705038!2d76.55942355837097!3d8.781890151723205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.095766!2d76.8629665!4m5!1s0x3b05bb1790281b73%3A0x6db90efe45aec3d4!2sManacaud%2C%20Thiruvananthapuram%2C%20Kerala%20695009!3m2!1d8.4718533!2d76.9517797!5e0!3m2!1sen!2sin!4v1700029571123!5m2!1sen!2sin" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.8682601120336!2d76.94564645004365!3d8.478687293855524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbab3adce1c3%3A0xdc1b33b9ab0e92fd!2sDaCentric%20Technologies!5e0!3m2!1sen!2sae!4v1700048587682!5m2!1sen!2sae"  width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                         
