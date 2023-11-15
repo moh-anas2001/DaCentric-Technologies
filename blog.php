@@ -263,7 +263,7 @@ $result = $connect->query($sql);
                                 <div class="col-md-6" style="padding-right: 50px;">
                                     <address>Office:702-20, Mai Tower, Al Nahda-1,
 
-                                        Al Qusais, Dubai UAE</address>
+                                        Al Qusais, Dubai, UAE</address>
                                 </div>
                             </div> -->
 
@@ -286,7 +286,7 @@ $result = $connect->query($sql);
                                 </div>
                                 <!-- Dubai Address -->
                                 <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
-                                  <address style="text-align: left;">Office:702-20, Mai Tower, Al Nahda-1, Al Qusais, Dubai UAE</address>
+                                  <address style="text-align: left;">Office:702-20, Mai Tower, Al Nahda-1, Al Qusais, Dubai, UAE</address>
                                 </div>
                               </div>
 
