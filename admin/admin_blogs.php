@@ -237,7 +237,7 @@ $_SESSION['token'] = md5(uniqid(rand(), true));
                             </a>
                             <div class="dropdown-content">
                                 <a href="dashboard.php">Dashboard</a>
-                                <a href="add_jobs.php">Add Jobs</a>
+                                <!-- <a href="add_jobs.php">Add Jobs</a> -->
                                 <a href="Logout.php">Logout</a>
                             </div>
                         </li>
@@ -275,43 +275,43 @@ $_SESSION['token'] = md5(uniqid(rand(), true));
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
                                 aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
                                 <span class="hide-menu">New Projects</span>
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="sidebar-item">
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php"
                                 aria-expanded="false">
                                 <i class="fa fa-globe" aria-hidden="true"></i>
                                 <span class="hide-menu">New Jobs</span>
                             </a>
-                        </li>
-                        <li class="sidebar-item">
+                        </li> -->
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php"
                                 aria-expanded="false">
                                 <i class="fas fa-chart-line" aria-hidden="true"></i>
                                 <span class="hide-menu">Update Statistics</span>
                             </a>
-                        </li>
-                        <li class="sidebar-item">
+                        </li> -->
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php"
                                 aria-expanded="false">
                                 <i class="fa fa-comment" aria-hidden="true"></i>
                                 <span class="hide-menu">New Testimonials</span>
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="sidebar-item">
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php"
                                 aria-expanded="false">
                                 <i class="fas fa-image" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Logo</span>
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php"
