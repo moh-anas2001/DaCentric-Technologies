@@ -15869,6 +15869,7 @@ display:none;
 
 .features .details p:last-child {
   margin-bottom: 0;
+  line-height: 1.6;
 }
 
 @media (max-width: 992px) {
