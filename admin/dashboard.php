@@ -139,7 +139,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                             </a>
                             <div class="dropdown-content">
                                 <a href="dashboard.php">Dashboard</a>
-                                <a href="add_jobs.php">Add Jobs</a>
+                                <!-- <a href="add_jobs.php">Add Jobs</a> -->
                                 <a href="Logout.php">Logout</a>
                             </div>
                         </li>
@@ -177,7 +177,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
-                       <li class="sidebar-item">
+                       <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
                                 aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
@@ -212,7 +212,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                 aria-expanded="false">
                                 <i class="fas fa-image" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Logo</span>
-                            </a>
+                            </a> -->
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php"

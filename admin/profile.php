@@ -190,7 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </a>
                             <div class="dropdown-content">
                                 <a href="dashboard.php">Dashboard</a>
-                                <a href="add_jobs.php">Add Jobs</a>
+                                <!-- <a href="add_jobs.php">Add Jobs</a> -->
                                 <a href="Logout.php">Logout</a>
                             </div>
                         </li>
@@ -228,7 +228,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        <!-- <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
                                 aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
@@ -256,7 +256,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <i class="fa fa-comment" aria-hidden="true"></i>
                                 <span class="hide-menu">New Testimonials</span>
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php"

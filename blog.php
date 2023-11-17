@@ -235,148 +235,146 @@ $result = $connect->query($sql);
     ?>
 
 
-<footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-info">
-                            <h3>DaCentric Technologies</h3>
-                            <p class="pb-3"><em>We are specialized in providing solution for IT & ELV Systems.</em></p>
-                            <!-- <div class="row">
-
-                                <div class="col-md-6" style="padding-left: 50px;">
-                                    <address style="padding-top: 20px;">India</address>
-                                </div>
-                                <div class="col-md-6" style="padding-right: 50px;">
-                                    <address>Mas Tower, <br>Attakulangara, Thiruvananthapuram</address>
-                                </div>
-                            </div>
-
-
-                            <div class="row">
-
-                                <div class="col-md-6" style="padding-left: 50px;">
-                                    <address style="padding-top: 20px;">UAE</address>
-                                </div>
-                                <div class="col-md-6" style="padding-right: 50px;">
-                                    <address>Office:702-20, Mai Tower, Al Nahda-1,
-
-                                        Al Qusais, Dubai, UAE</address>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row">
-                                <!-- India Address -->
-                                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
-                                  <address style="padding-top: 20px;">India</address>
-                                </div>
-                                <!-- Mas Tower Address -->
-                                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
-                                  <address style="text-align: left;">Mas Tower, <br>Attakulangara, Thiruvananthapuram</address>
-                                </div>
-                              </div>
-                              
-                              <div class="row">
-                                <!-- UAE Address -->
-                                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
-                                  <address style="padding-top: 20px;">UAE</address>
-                                </div>
-                                <!-- Dubai Address -->
-                                <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
-                                  <address style="text-align: left;">Office:702-20, Mai Tower, Al Nahda-1, Al Qusais, Dubai, UAE</address>
-                                </div>
-                              </div>
-
-                            <p>
-                                <strong>Email:</strong> tse@dacentrictechnologies.com<br>
-                            </p>
-                            <div class="social-links mt-3">
-                                <a href="https://x.com/dacentric?s=20" class="twitter"><i
-                                        class="fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.facebook.com/DaCentric" class="facebook"><i
-                                        class="bx bxl-facebook"></i></a>
-                                <a href="https://instagram.com/dacentrictechnologies?igshid=MTlnbmdhanJhMzhoYQ=="
-                                    class="instagram"><i class="bx bxl-instagram"></i></a>
-                                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-                                <a href="https://www.linkedin.com/company/dacentric-technologies/" class="linkedin"><i
-                                        class="bx bxl-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Artificial Intelligence</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">IT and Networking</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Data Center infrastructure
-                                    management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Intercom System</a></li>
-                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
-                        </ul>
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-
-
-                        
-            
-                    </div> -->
-
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                        <div class="row">
-                            
-                            <div class="col-lg-12">
-                                <p style="text-align: center; font-size: 20px;">India</p>
-                                <!-- Content for the first row goes here -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.8682601120336!2d76.94564645004365!3d8.478687293855524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbab3adce1c3%3A0xdc1b33b9ab0e92fd!2sDaCentric%20Technologies!5e0!3m2!1sen!2sae!4v1700048587682!5m2!1sen!2sae"  width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <p style="text-align: center; font-size: 20px;">UAE</p>
-                                <!-- Content for the second row goes here -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28859.983693419534!2d55.3572806!3d25.2874685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dc8bf44b213%3A0x2b359e754483f519!2sQplus%20Technical%20Service%20LLC!5e0!3m2!1sen!2sin!4v1700029795698!5m2!1sen!2sin" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-
-                </div>
-            </div>
-        </div>
-
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
         <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>DaCentric Technologies</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
-                <!-- Designed by <a href="https://dacentrictechnologies.com">DaCentric Technologies</a> -->
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-info">
+                        <h3>DaCentric Technologies</h3>
+                        <p class="pb-3"><em>We are specialized in providing solution for IT & ELV Systems.</em></p>
+                        <!-- <div class="row">
+
+                            <div class="col-md-6" style="padding-left: 50px;">
+                                <address style="padding-top: 20px;">India</address>
+                            </div>
+                            <div class="col-md-6" style="padding-right: 50px;">
+                                <address>Mas Tower, <br>Attakulangara, Thiruvananthapuram</address>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+
+                            <div class="col-md-6" style="padding-left: 50px;">
+                                <address style="padding-top: 20px;">UAE</address>
+                            </div>
+                            <div class="col-md-6" style="padding-right: 50px;">
+                                <address>Office:702-20, Mai Tower, Al Nahda-1,
+
+                                    Al Qusais, Dubai, UAE</address>
+                            </div>
+                        </div> -->
+
+
+                        <div class="row">
+                            <!-- India Address -->
+                            <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                              <address style="padding-top: 20px;">India</address>
+                            </div>
+                            <!-- Mas Tower Address -->
+                            <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                              <address style="text-align: left;">Mas Tower, <br>Attakulangara, Thiruvananthapuram</address>
+                            </div>
+                          </div>
+                          
+                          <div class="row">
+                            <!-- UAE Address -->
+                            <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                              <address style="padding-top: 20px;">UAE</address>
+                            </div>
+                            <!-- Dubai Address -->
+                            <div class="col-md-6 col-sm-12" style="padding-left: 20px; padding-right: 20px;">
+                              <address style="text-align: left;">Office:702-20, Mai Tower, Al Nahda-1, Al Qusais, Dubai, UAE</address>
+                            </div>
+                          </div>
+
+                        <p>
+                            <strong>Email:</strong> tse@dacentrictechnologies.com<br>
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="https://x.com/dacentric?s=20" class="twitter"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.facebook.com/DaCentric" class="facebook"><i
+                                    class="bx bxl-facebook"></i></a>
+                            <a href="https://instagram.com/dacentrictechnologies?igshid=MTlnbmdhanJhMzhoYQ=="
+                                class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                            <a href="https://www.linkedin.com/company/dacentric-technologies/" class="linkedin"><i
+                                    class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">IT Solutions & Support</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Software Services</a></li>                     
+                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">ELV Systems</a></li>
+                        <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+
+
+                    
+        
+                </div> -->
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <div class="row">
+                        
+                        <div class="col-lg-12">
+                            <p style="text-align: center; font-size: 20px;">India</p>
+                            <!-- Content for the first row goes here -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.8682601120336!2d76.94564645004365!3d8.478687293855524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbab3adce1c3%3A0xdc1b33b9ab0e92fd!2sDaCentric%20Technologies!5e0!3m2!1sen!2sae!4v1700048587682!5m2!1sen!2sae"  width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p style="text-align: center; font-size: 20px;">UAE</p>
+                            <!-- Content for the second row goes here -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28859.983693419534!2d55.3572806!3d25.2874685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dc8bf44b213%3A0x2b359e754483f519!2sQplus%20Technical%20Service%20LLC!5e0!3m2!1sen!2sin!4v1700029795698!5m2!1sen!2sin" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </div>
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>DaCentric Technologies</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
+            <!-- Designed by <a href="https://dacentrictechnologies.com">DaCentric Technologies</a> -->
+        </div>
+    </div>
+</footer><!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
