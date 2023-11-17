@@ -526,7 +526,7 @@ a:hover {
   background-size: cover;
  /* Ensure the image covers the entire background */
   /* background-position: center ;  */
-}
+/* } */
 
 .site-footer .bottom .list-inline,
 .site-footer .bottom p {
@@ -554,7 +554,7 @@ a:hover {
 
 .site-footer .credits a {
   color: #199EB8;
-} */
+} 
 
 /* ==================================================
   Responsive Styling
@@ -6514,7 +6514,7 @@ button.mfp-close {
   color: #232323;
 }
 
-}
+
 .nav-item.dropdown.megamenu .menu-back-div ul.small-gap[class*="d-"] {
   padding-left: 0;
   padding-right: 30px;
@@ -15692,7 +15692,7 @@ display:none;
  }
  
  .overview-mentors .user-card-info p {
-   // font-size: 14px;
+    font-size: 14px;
    margin-bottom: 2px;
  }
  .overview-mentors .user-card-info p.designation {
@@ -15790,7 +15790,7 @@ display:none;
     left: -30px;
     transform: translateY(-50%);
     background: linear-gradient(-180deg, #055bab 0%, #045dac 100%);
-    // background: linear-gradient(-180deg, #43baff 0%, #7141b1 100%);
+    background: linear-gradient(-180deg, #43baff 0%, #7141b1 100%);
     z-index: -1;
     transition: all 0.3s linear;
 }
