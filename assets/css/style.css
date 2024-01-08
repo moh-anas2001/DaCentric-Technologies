@@ -961,13 +961,17 @@ a:hover {
   .contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+    
+   
   }
   .contact.contact-address{
     padding: 0 ;
+    
   }
 
    .contact .contact-phone, .contact .contact-email {
     padding: 0px 0px 100px 0px;
+    
   }
 }
 
